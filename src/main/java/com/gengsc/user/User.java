@@ -1,4 +1,4 @@
-package com.dongnaoedu.user;
+package com.gengsc.user;
 
 import java.io.Serializable;
 

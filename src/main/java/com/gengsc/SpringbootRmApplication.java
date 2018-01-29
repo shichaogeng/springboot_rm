@@ -1,4 +1,4 @@
-package com.dongnaoedu;
+package com.gengsc;
 
 import org.springframework.amqp.core.*;
 import org.springframework.boot.SpringApplication;

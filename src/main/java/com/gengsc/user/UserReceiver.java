@@ -1,20 +1,22 @@
-package com.dongnaoedu.topic;
+package com.gengsc.user;
 
 import org.springframework.amqp.rabbit.annotation.RabbitHandler;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Component;
+
 /**
  * shichaogeng
  * 创建日期：2017/10/30
- * 创建时间: 11:10
+ * 创建时间: 11:03
  */
+
 @Component
-@RabbitListener(queues = "sb.info.email")
-public class TopicEmailMessageReceiver {
+@RabbitListener(queues = "sb.user")
+public class UserReceiver {
 
     @RabbitHandler
-    public void process(String msg) {
-        System.out.println("TopicEmailMessageReceiver  : " +msg);
+    public void process(User user) {
+        System.out.println("user receive  : " + user.getName()+"/"+user.getPass());
     }
 
 }

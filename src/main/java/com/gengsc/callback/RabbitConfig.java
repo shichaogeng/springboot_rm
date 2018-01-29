@@ -1,4 +1,4 @@
-package com.dongnaoedu.callback;
+package com.gengsc.callback;
 
 import org.springframework.amqp.rabbit.connection.CachingConnectionFactory;
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;

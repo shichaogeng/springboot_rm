@@ -1,8 +1,8 @@
-package com.dongnaoedu.callback;
+package com.gengsc.callback;
 
 import java.util.UUID;
 
-import com.dongnaoedu.RmConst;
+import com.gengsc.RmConst;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.amqp.rabbit.support.CorrelationData;
 import org.springframework.beans.factory.annotation.Autowired;

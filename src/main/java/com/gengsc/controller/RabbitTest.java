@@ -1,12 +1,11 @@
-package com.dongnaoedu.controller;
+package com.gengsc.controller;
 
-import com.dongnaoedu.callback.CallBackSender;
-import com.dongnaoedu.hello.HelloSender1;
-import com.dongnaoedu.topic.TopicSender;
-import com.dongnaoedu.user.UserSender;
+import com.gengsc.callback.CallBackSender;
+import com.gengsc.hello.HelloSender1;
+import com.gengsc.topic.TopicSender;
+import com.gengsc.user.UserSender;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 

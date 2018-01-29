@@ -1,4 +1,4 @@
-package com.dongnaoedu.topic;
+package com.gengsc.topic;
 
 import org.springframework.amqp.rabbit.annotation.RabbitHandler;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;

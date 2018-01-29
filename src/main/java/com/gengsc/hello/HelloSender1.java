@@ -1,12 +1,9 @@
-package com.dongnaoedu.hello;
+package com.gengsc.hello;
 
-import com.dongnaoedu.RmConst;
-import com.dongnaoedu.SpringbootRmApplication;
+import com.gengsc.RmConst;
 import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-
-import java.util.Date;
 
 /**
  * shichaogeng
